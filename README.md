@@ -9,7 +9,7 @@ De python code is het best beheersbaar indien je gebruik maakt van een virtual e
 
 Voor de analyses en de queries word gebruik gemaakt van Jupyter notebook: De resultaten worden geprint als output of als een markdown bestand. Die kunnen worden overgenomen of gelinkt in het rapport.
 
-Kopieer het bestand `datasource.py.template`, hernoem die naar `datasource.py` en vul de URL van het SPARQL endpoint in en de andere gegevens.
+Kopieer het bestand `datasource.py.template`, hernoem die naar `datasource.py` en vul de URL van het SPARQL endpoint in en de andere gegevens. Indien je niet over een username of password beschikt vul je gewoon `None` in.
 
 Na het clonen installeer python virtual als je dat nog niet gedaan hebt met `pip install virtualenv`. Er werd gebruik gemaakt van python versie 3.11.
 
@@ -23,3 +23,4 @@ Dan best de volgende commando's uitvoeren:
 
 Dan kun je het Jupyter notebook openen en runnen in VSCode als je die editor gebruikt als je de queries voor het rapport wilt uitvoeren. Vergeet niet de kernel van de venv te kiezen voor Jupyter.
 
+In Jupyter kun je de 'query jobs' aanpassen. Het laatste item in de list kun je gebruiken om de query aan of uit te zetten om tijd te besparen wanneer je de cellen opnieuw runt.

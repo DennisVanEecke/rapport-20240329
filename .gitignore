@@ -5,3 +5,4 @@ datasource.py
 .crossnote
 *.sparqlbook
 __pycache__
+output.json
