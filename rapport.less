@@ -1,0 +1,131 @@
+@page {
+  margin: 25mm 25mm 25mm 25mm;
+}
+
+html {
+  font-size: 10pt !important;
+}
+
+.margin-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+h1 {
+  font-size: 1.6rem !important;
+  padding: 0.5rem !important;
+  margin: 0rem 0rem 2rem 0rem !important;
+  background-color: #f0f0f0;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.4rem !important;
+  padding: 0.1rem 0rem 0.5rem 0rem !important;
+  margin: 0rem !important;
+}
+
+h3 {
+  font-size: 1.3rem !important;
+  padding: 0.1rem 0rem 0.3rem 0rem !important;
+  margin: 0rem !important;
+}
+
+h4 {
+  font-size: 1.2rem !important;
+  padding: 0.1rem 0rem 0.3rem 0rem !important;
+  margin: 0rem !important;
+}
+
+h5 {
+  font-size: 1.1rem !important;
+  padding: 0rem !important;
+  margin: 0rem !important;
+}
+
+h6 {
+  font-size: 1rem !important;
+  padding: 0rem !important;
+  margin: 0rem !important;
+}
+
+p,
+ul,
+ol,
+pre,
+code,
+table {
+  font-size: 1rem;
+}
+
+blockquote {
+  margin-left: 1cm !important;
+  font-size: 9pt;
+}
+
+table.fixed-fullwidth-table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+table.no-border-table {
+  border: none;
+  border-collapse: collapse;
+}
+
+.env {
+  text-transform: uppercase;
+  font-size:8pt;
+  font-weight: 600;
+  background-color: #f0f0f0;
+  color: #5c5c5c;
+  padding:4px;
+  border-radius: 100px; // Pill shape
+}
+
+.contactinfo {
+  display: block;
+  float: right;
+  margin: 0rem 0rem 0.2rem 1rem;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 0.5rem;
+}
+
+.contactinfo p {
+  margin-bottom: 0
+}
+
+.contactinfo ul {
+  list-style-type: '- ';
+  margin: 0rem;
+  padding-left: 1rem;
+}
+
+ul.flex-list-predicates {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
+  grid-template-rows: auto;
+  padding-left:0px;
+  column-gap: 1rem;
+
+}
+
+ul.flex-list-predicates > li {
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: Opx;
+  padding-bottom: 0px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+ul.flex-list-predicates > li > pre {
+  padding: 0px;
+  margin:0px;
+  overflow: hidden;
+  font-size: xx-small;
+}

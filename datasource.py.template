@@ -1,0 +1,6 @@
+DATASOURCE = {
+  "endpoint":"<sparql endpoint>",
+  "abbrev":"<Short name only lowercase and '-'>",
+  "user":"<username>",
+  "password":"<password>",
+}

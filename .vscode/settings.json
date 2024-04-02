@@ -1,0 +1,11 @@
+{
+    "markdown-preview-enhanced.enableScriptExecution": true,
+    "spellright.language": [
+        "en",
+        "nl"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+    ],
+    "markdown-preview-enhanced.mermaidTheme": "default"
+}
