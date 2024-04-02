@@ -4,3 +4,4 @@ query-errors.log
 datasource.py
 .crossnote
 *.sparqlbook
+__pychache__
