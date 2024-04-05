@@ -29,7 +29,7 @@ Om een effectieve applicatie te kunnen bouwen moeten de besluiten kunnen gefilte
 
 In dit rapport zullen we niet ingaan op de verschillende filtertechnieken en hoe word gecompenseerd voor de wisselende datakwaliteit. Dit zijn de resultaten.
 
-| # Totaal | # gelinkt aan gemeente | # Met besluit type | # Met fiscaal type | # Fiscaal & compleet | # Fiscaal & compleet & gelinkt |
+| # Totaal | # gelinkt aan gemeente & gemeenteraad | # Met besluit type | # Met fiscaal type | # Fiscaal & compleet | # Fiscaal & compleet & gelinkt |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 2.434.838 | 301.471 | 77.737 | 2.067 | 546 | 483 |
 
